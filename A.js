@@ -24,10 +24,10 @@ function logout(username) {
     console.log(`Goodbye, ${username}. You have been logged out.`);
 }
 
-if (login("Anshul", "1234")) {
+if (login("Astitva", "1234")) {
     let data = getData();
     displayData(data);
-    logout("Anshul");
+    logout("Astitva");
 }
 
 
@@ -64,4 +64,5 @@ if (login("Anshul", "1234")) {
         displayData(data);
         logout("Anshul");
     });
+
 }
